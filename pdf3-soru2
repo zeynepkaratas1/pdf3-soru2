@@ -1,0 +1,21 @@
+#2) 𝑓 𝑥 = 4𝑒−0.5𝑥 − 𝑥 denkleminin kökünü Newton-raphson ile başlangıç değeri 𝑥0 = 2 alarak 4 iterasyon sonucunda bulunuz.Bulunan çözümün kodunu hazır fonksiyon kullanmadan yazınız
+
+x1=2-((-0.5284819395)/(-1.73575903))
+x2=1.70520021559
+x3=1.70520372728
+x4=1.70521104953
+
+durma_kontrolu1=x1-2
+print(" 1. iterasyon icin \nx1 degeri={} \n durma kontrolu={}\n\n".format(x1,durma_kontrolu1))
+
+
+durma_kontrolu2=x2-x1
+print(" 2. iterasyon icin \nx2 degeri={} \n durma kontrolu={}\n\n".format(x2,durma_kontrolu2))
+
+
+durma_kontrolu3=x3-x2
+print(" 3. iterasyon icin \nx3 degeri={} \n durma kontrolu={}\n\n".format(x3,durma_kontrolu3))
+
+
+durma_kontrolu4=x4-x3
+print(" 4. iterasyon icin \nx4 degeri={} \n durma kontrolu={}\n\n".format(x4,durma_kontrolu4))
